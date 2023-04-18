@@ -2,7 +2,7 @@ import React from 'react';
 import estilos from './Menu.module.css';
 
 const listaMenu = [
-  'Inicial',
+  'Início',
   'Transferências',
   'Investimentos',
   'Outros serviços',
@@ -20,6 +20,7 @@ export default function Menu() {
             {indice !== listaMenu.length - 1 && (
               <div className={estilos.divisor} />
             )}
+            <p>Inicial</p>
           </div>
         );
       })}
