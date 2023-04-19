@@ -23,3 +23,10 @@ test('Não deve renderizar o link para Extrato', () => {
   // Se está presente na árvore do DOM
   expect(linkExtrato).not.toBeInTheDocument();
 });
+
+test('Verificar existência de classe', () => {
+  render(<Menu />);
+  const classItem = screen.getAllByRole('link');
+  classItem.forEach((link) => expect(link).toHaveClass('link'));
+  expect(classItem).toMatchSnapshot();
+});

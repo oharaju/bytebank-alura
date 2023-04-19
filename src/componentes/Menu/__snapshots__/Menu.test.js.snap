@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verificar existência de classe 1`] = `
+Array [
+  <a
+    class="link"
+    href="/"
+  >
+    Início
+  </a>,
+  <a
+    class="link"
+    href="/"
+  >
+    Transferências
+  </a>,
+  <a
+    class="link"
+    href="/"
+  >
+    Investimentos
+  </a>,
+  <a
+    class="link"
+    href="/"
+  >
+    Outros serviços
+  </a>,
+]
+`;
